@@ -91,19 +91,11 @@ Esto iniciará un contenedor de MySQL con las configuraciones necesarias y persi
 
 ## 🧪 Pruebas de integración
 
-El repositorio incluye una colección de pruebas de integración con Postman para comprobar el funcionamiento de los endpoints de los servicios.
+El repositorio incluye una colección de pruebas de integración con Postman para comprobar el flujo de los endpoints de los servicios.
 
 📁 Archivo: `BackEndAsyncEspecializacion1.postman_collection.json`
 
-Puedes importarlo en Postman para probar los siguientes casos:
-
-- Crear canciones (`music-service`)
-- Consultar canciones
-- Crear playlists (`playlist-service`)
-- Consultar playlists
-
-Cada prueba incluye una respuesta de ejemplo como resultado esperado.
-
+Puedes importarlo en Postman 
 ---
 
 ## 📎 Notas importantes
