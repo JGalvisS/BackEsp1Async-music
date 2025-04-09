@@ -95,7 +95,6 @@ El repositorio incluye una colección de pruebas de integración con Postman par
 
 📁 Archivo: `BackEndAsyncEspecializacion1.postman_collection.json`
 
-Puedes importarlo en Postman 
 ---
 
 ## 📎 Notas importantes
