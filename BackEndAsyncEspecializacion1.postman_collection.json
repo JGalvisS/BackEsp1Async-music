@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "73b2fe0b-6d64-453d-8ad8-52f4067f3b36",
+		"name": "BackEndAsyncEspecializacion1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34650145"
+	},
+	"item": [
+		{
+			"name": "mesa 7 preparcial",
+			"item": [
+				{
+					"name": "Music",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:65283/funk",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "65283",
+							"path": [
+								"funk"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "music",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:65283/funk",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "65283",
+									"path": [
+										"funk"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 14 Jun 2024 20:19:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"name\": \"Kevinho\",\n        \"genre\": \"Funk\",\n        \"urlStream\": \"what\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Playlist",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:61405/playlist/funk",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "61405",
+							"path": [
+								"playlist",
+								"funk"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "playlist",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:61405/playlist/funk",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "61405",
+									"path": [
+										"playlist",
+										"funk"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "connection",
+									"value": "keep-alive, keep-alive"
+								},
+								{
+									"key": "date",
+									"value": "Fri, 14 Jun 2024 23:44:55 GMT"
+								},
+								{
+									"key": "keep-alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "transfer-encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"name\": \"Kevinho\",\n        \"genre\": \"Funk\",\n        \"urlStream\": \"what\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Gateway",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9090/playlist/funk",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9090",
+							"path": [
+								"playlist",
+								"funk"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Gateway",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:9090/playlist/funk",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "9090",
+									"path": [
+										"playlist",
+										"funk"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "transfer-encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "date",
+									"value": "Wed, 09 Apr 2025 17:17:16 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": 2,\n        \"name\": \"Kevinho\",\n        \"genre\": \"Funk\",\n        \"urlStream\": \"what\"\n    }\n]"
+						}
+					]
+				}
+			]
+		}
+	]
+}
